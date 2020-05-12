@@ -1,12 +1,157 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title>HTML Academy: Погнали</title>
-  </head>
-  <body>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+<head>
+  <meta charset="utf-8">
+  <title>Погнали</title>
+</head>
 
-  </body>
+<body>
+  <header class="page-header">
+    <a class="page-header__logo">
+      <img class="page-header__img-logo" src="img/logo-mobile-white.png" alt="Проект Погнали" width="100px" height="19px">
+    </a>
+    <button type="button" name="button" class="page-header__button"></button>
+    <h2 class="page-header__text">
+      В путешествие с крутыми попутчиками!
+    </h2>
+    <div class="page-header__footer button-footer">
+      <button type="button" name="button" class="button-footer__call"></button>
+      <button type="button" name="button" class="button-footer__write"></button>
+      <button type="button" name="button" class="button-footer__login"></button>
+      <div>
+  </header>
+  <main class="page-main">
+    <section class="direction">
+      <p class="direction__text1">
+        «Лучшее приложение, что я видел в жизни!»
+      </p>
+      <p class="direction__text2">
+        Мурат Эльтазин главный редактор газеты «гаджетлайф»
+      </p>
+      <ul class="direction__buttons service">
+        <li class="service__path">
+          <a href="#">Выберите направление</a>
+        </li>
+        <li class="service__idea">
+          <a href="#">Изучите идеи путешественников</a>
+        </li>
+        <li class="service__find">
+          <a href="#">Находите тех, кто похож на вас</a>
+        </li>
+        <li class="service__travel">
+          <a href="#">Путешествуйте вместе!</a>
+        </li>
+      </ul>
+    </section>
+    <section class="about-service">
+      <div class="about-service__wrapper">
+        <h3 class="about-service__header">О сервисе</h3>
+        <p class="about-service__text1">
+          Любое путешествие веселее с попутчиками, которые на одной волне с тобой! Делитесь своими идеями путешествий и черпайте вдохновение в чужих.
+        </p>
+        <p class="about-service__text2">
+          А если найдете кого-то близкого по духу — скорее зовите в совместный трип!
+        </p>
+      </div>
+    </section>
+    <section class="orientation">
+      <h3 class="orientation__wrapper">Направление
+      </h3>
+      <p class="orientation__text1">Мы не продаем туры и ничего не рекламируем. Люди сами пишут о странах, куда хотели бы отправиться и чем можно там заняться.
+      </p>
+      <ul class="orientation__list">
+        <li class="orientation__card orientation__card--tai">
+          <h3 class="orientation__card--title">Тайланд</h3>
+          <p class="orientation__card--description">Джунгли зовут!</p>
+          <p class="orientation__card--numbers">18321</p>
+        </li>
+        <li class="orientation__card orientation__card-french">
+          <h3 class="orientation__card--title">Франция</h3>
+          <p class="orientation__card--description">Трэ бьен, манифик!</p>
+          <p class="orientation__card--numbers">12518</p>
+        </li>
+        <li class="orientation__card orientation__card--czech">
+          <h3 class="orientation__card--title">Чехия</h3>
+          <p class="orientation__card--description">Закоулки старой Европы</p>
+          <p class="orientation__card--numbers">5326</p>
+        </li>
+      </ul>
+      <button type="button" name="button" class="button-orientation__showAll">Показать всё</button>
+    </section>
+    <section class="companion">
+      <h3 class="companion__header">Попутчики</h3>
+      <p class="companion__text1">Все мы индивидуальны и у каждого свой взгляд на идеальный отдых. Одному нужен пляж и коктейль, а другому маршрут для хайкинга.
+      </p>
+      <p class="companion__text2">Теперь можно легко найти единомышленников!
+      </p>
+      <ul class="companion__list">
+        <li class="companion__card companion__card--tanya">
+          <h4 class="companion__card--title">Таня Фирсова</h4>
+          <p class="companion__card--description">#ЗОЖ #ПП #Фитнес #пляж #авокадо #смузи</p>
+        </li>
+        <li class="companion__card companion__card--petya">
+          <h4 class="companion__card--title">Петя Демин</h4>
+          <p class="companion__card--description">#бургер #бар #футбол #концерт #крафт</p>
+        </li>
+      </ul>
+      <button type="button" name="button" class="button-companion--show-all">Показать всех</button>
+    </section>
+    <section class="add-profile">
+      <h3 class="add-profile__title">Добавьте свой профиль</h3>
+      <ul class="add-profile__list">
+        <li class="add-profile__card">
+          <p class="add-profile--">Базовое размещение <br>Бесплатно</p>
+          <button type="button" name="button" class="button__add-profile add-profile--1">1</button>
+        </li>
+        <li class="add-profile__card">
+          <p>Вывод на первых позициях<br>99 руб./мес</p>
+          <button type="button" name="button" class="button__add-profile add-profile--2">2</button>
+        </li>
+        <li class="add-profile__card">
+          <p>Кастомный цвет карточки<br>59 руб./мес</p>
+          <button type="button" name="button" class="button__add-profile add-profile--3">3</button>
+        </li>
+      </ul>
+      <button type="button" name="button" class="button-addProfile--show-all">Показать все тарифы для бизнеса</button>
+    </section>
+    <section class="interested">
+      <div class="interested__wrapper">
+        <h3 class="interested__title">Заинтересовались?</h3>
+        <p class="interested__description">Зарегистрируйтесь, это быстро и бесплатно!Уже зарегистрированы? Тогда скорее <a href="" class="interested--auth">авторизуйтесь</a>.</p>
+        <form action="" class="interested__form">
+          <label for="get-mail" class="interested__label">E-mail</label>
+          <input id="get-mail" type="text" name="name">
+          <input type="submit" value="Save">
+        </form>
+        <p class="interested__description">Остались вопросы? Мы с радостью на них ответим!</p>
+        <p class="interested__contact interested__contact--phone">8 800 555-86-28</p>
+        <p class="interested__contact interested__contact--mail">mail@htmlacademy.ru</p>
+      </div>
+      <div class="interested__wrapper--yellow">
+        <p class="interested__contact interested__contact--address">ул. Большая Конюшенная, 19/8</p>
+        <button type="button" name="button" class="button-interested__create-path">Проложить маршрут</button>
+        <a href="" class="interested__map"><img src="" alt="map"></a>
+      </div>
+    </section>
+    <footer class="footer">
+      <a href="" class="footer__logo"></a>
+      <ul class="footer__soc-list">
+        <li  class="footer__icon">
+          <a href="" class="footer__social-button"><img src="" alt="" class="footer__icon--face-book"></a>
+        </li>
+        <li class="footer__icon">
+          <a href="" class="footer__social-button"><img src="" alt="" class="footer__icon--vk"></a>
+        </li>
+        <li class="footer__icon">
+          <a href="" class="footer__social-button"><img src="" alt="" class="footer__icon--ins"></a>
+        </li>
+      </ul>
+      <p class="footer__description">Разработано
+      </p>
+      <a href="" class="footer__htmlAcad-logo"><img src="" alt=""></a>
+    </footer>
+  </main>
+</body>
+
 </html>
